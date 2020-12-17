@@ -1,2 +1,15 @@
+# client file
+
 .DS_Store
+Thumbs.db
+
+.idea
+.vscode
+
+.log*
+
+# repository file
+
+coverage
+dist
 node_modules

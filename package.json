@@ -1,10 +1,21 @@
 {
-  "name": "util",
-  "version": "1.0.0",
-  "description": "自分専用のutilを作る",
-  "main": "index.js",
-  "repository": "git@github.com:ma82121/util.git",
+  "name": "utils",
+  "version": "0.1.0",
+  "description": "自分専用のユーティリティー",
+  "repository": "git@github.com:ma82121/utils.git",
   "author": "ma",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "jest": "^26.6.3",
+    "webpack": "^5.10.3",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack serve",
+    "test": "jest"
+  }
 }
