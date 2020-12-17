@@ -1,0 +1,10 @@
+{
+  "name": "util",
+  "version": "1.0.0",
+  "description": "自分専用のutilを作る",
+  "main": "index.js",
+  "repository": "git@github.com:ma82121/util.git",
+  "author": "ma",
+  "license": "MIT",
+  "private": true
+}
